@@ -10,4 +10,4 @@ $(OBJECTS): %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f  $(OBJECTS)
+	rm -f  $(OBJECTS) $(TARGETS)
